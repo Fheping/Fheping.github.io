@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 和平的blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: F heping
+theme: fluid  # 指定主题
+language: zh-CN  # 指定语言，会影响主题显示的语言，按需修改
 timezone: ''
 
 # URL
@@ -40,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -97,9 +98,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Fheping/Fheping.github.io.git # https://github.com/<GitHub用户名>/<GitHub用户名>.github.io.git
+  branch: main
+  # token: [token]

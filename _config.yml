@@ -105,5 +105,5 @@ ignore:
 deploy:
   type: git
   repo: https://github.com/Fheping/Fheping.github.io.git # https://github.com/<GitHub用户名>/<GitHub用户名>.github.io.git
-  branch: blog
+  branch: main
   # token: [token]
